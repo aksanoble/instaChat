@@ -22,7 +22,7 @@ function showApp() {
   $('#channel').hide();
   pubinit($('#me').val(), $('#friend').val());
 }
-$('#new-todo').keydown(chatOn);
+$('#new-todo').keyup(chatOn);
 
 function chatOn(e) {
   pubnub.publish({
