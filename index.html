@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en" data-framework="backbonejs">
+	<head>
+		<meta charset="utf-8">
+		<title>InstaChat</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/base.css">
+		<link rel="stylesheet" href="css/index.css">
+	</head>
+	<body>
+
+  <div id="channel">
+    <div class="form-group">
+      <label for="exampleInputName2">You</label>
+      <input type="text" class="form-control" id="me" placeholder="Username">
+    </div>
+
+    <div class="form-group">
+      <label for="exampleInputName2">Friend</label>
+      <input type="text" class="form-control" id="friend" placeholder="Username">
+    </div>
+    <button id="connect" class="btn btn-default">Connect</button>
+  </div>
+
+		<section id="todoapp">
+      <div class="well well-lg"></div>
+			<header id="header">
+				<h1>Insta Chat</h1>
+				<input id="new-todo" placeholder="Say what you have to" autofocus>
+			</header>
+
+    </section>
+    <script src="http://cdn.pubnub.com/pubnub-3.7.1.min.js"></script>
+    <script src="js/lib/jquery.js"></script>
+		<script src="js/app.js"></script>
+
+	</body>
+</html>
